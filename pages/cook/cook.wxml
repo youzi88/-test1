@@ -1,0 +1,32 @@
+<view class="content">
+<view class="img">
+<image src="../images/meishibeijing.jpg" style="width:100%;height:230px;"></image>
+</view>
+<view class="nav">
+<view class="nav-item">
+  <view> <image src="../images/fenleia.png" style="width:25px;height:23px;"></image> </view>
+ <view>菜谱分类</view>
+</view>
+<view class="nav-item">
+<view> <image src="../images/shipina.png" style="width:25px;height:23px;"></image> </view>
+<view>视频</view>
+ </view>
+ <view class="nav-item">
+<view><image src="../images/yangshenga.png" style="width:25px;height:23px;"></image></view>
+<view>养生</view>
+</view>
+<view class="nav-item">
+<view><image src="../images/gouwua.png" style="width:25px;height:23px;"></image></view>
+<view>购物</view>
+</view>
+</view>
+<view class="hr"> </view>
+<view class="head">
+<view>香哈头条</view>
+<view class="right">></view>
+</view>
+<import src="../template/template"/>
+<view class="list">
+<template is="cooks" data="{{array}}"/>
+  </view>
+</view>

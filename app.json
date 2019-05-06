@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/cook/cook",
+    "pages/food/food",
+    "pages/headline/headline",
+    "pages/me/me",
+    "pages/message/message"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#494949",
+    "navigationBarTitleText": "学做菜",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/cook/cook",
+        "text": "学做菜",
+        "iconPath": "pages/images/zuocaia.png",
+        "selectedIconPath": "pages/images/zuocaib.png"
+      },
+      {
+        "pagePath": "pages/headline/headline",
+        "text": "消息",
+        "iconPath": "pages/images/xiaoxia.png",
+        "selectedIconPath": "pages/images/xiaoxib.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "美食",
+        "iconPath": "pages/images/meishia.png",
+        "selectedIconPath": "pages/images/meishib.png"
+      },
+      {
+        "pagePath": "pages/headline/headline",
+        "text": "文章",
+        "iconPath": "pages/images/wenzhanga.png",
+        "selectedIconPath": "pages/images/wenzhangb.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/images/wodea.png",
+        "selectedIconPath": "pages/images/wodeb.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
